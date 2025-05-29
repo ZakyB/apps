@@ -12,7 +12,7 @@ You can join our Discod to discuss the development. Feel free to make pull reque
 
 ```bash
 # clone repo
-git clone https://github.com/atlasacademy/apps.git aa-apps
+git clone https://github.com/ZakyB/apps.git aa-apps
 cd aa-apps
 
 # install lerna and prettier. You should use prettier with the given config to format the files.
