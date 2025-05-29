@@ -185,6 +185,15 @@ class Navigation extends React.Component<IProps, IState> {
                                             <TWFlag />
                                         </Link>
                                     </Col>
+                                    <Col>
+                                        <Link
+                                            to={this.regionLink(Region.FR)}
+                                            className={`nav-link ${this.regionClass(Region.FR)}`}
+                                            title={t("View data from the FR version")}
+                                        >
+                                            <TWFlag />
+                                        </Link>
+                                    </Col>
                                 </Row>
                                 <Row>
                                     <Col>

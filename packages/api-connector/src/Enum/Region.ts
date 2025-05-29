@@ -4,6 +4,7 @@ enum Region {
     CN = "CN",
     KR = "KR",
     TW = "TW",
+    FR = "FR",
 }
 
 export default Region;

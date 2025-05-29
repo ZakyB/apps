@@ -1,0 +1,1634 @@
+
+＄03-00-08-00-1-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 98001000 1 Mash]
+[charaSet B 98002000 1 Fou]
+[charaSet C 9005001 1 Holmes]
+[charaSet D 1098124510 1 "Da Vinci"]
+[charaSet E 1098123200 1 Goredolf]
+[charaSet F 1098123000 1 Meunière]
+[charaSet G 5008000 1 Merlin]
+
+[charaSet H 98115000 1 Effect]
+
+[charaSet I 1098158220 1 Sion]
+[charaSet J 4037000 1 Nemo]
+[charaSet K 1098181900 1 "Nemo Marine 1"]
+[charaSet L 1098181900 1 "Nemo Marine 1"]
+
+
+
+[scene 122000]
+[wt 0.4]
+
+[se ad462]
+[seVolume ad462 0 0]
+[seVolume ad462 1.0 1.0]
+[wt 2.2]
+
+[seStop ad462 4.0]
+
+[fadein black 4.0]
+[wt 3.0]
+[wait fade]
+
+[wt 0.8]
+
+
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.6 1]
+[seStop ad527 0.4]
+[wt 0.7]
+
+
+＠Mage
+Eh bien, bonjour là-bas, vous avec le sort encore inconnu.[bgm BGM_EVENT_20 0.1][sr]J'espère que vous pouvez m'entendre?
+[k]
+
+＠Mage
+Ou peut-être que «bonjour encore, Stargazer» serait plus approprié? Eh, de toute façon. Cela n'a pas vraiment d'importance.
+[k]
+
+＠Mage
+Vous êtes ici maintenant, et je ne dois plus m'ennuyer de mon crâne. Alors, entendez-vous ce que j'ai à dire?
+[k]
+
+＠Mage
+Je suppose que c'est moins ce que j'ai à dire, exactement, que c'est l'une des nombreuses chansons que le vent m'a portées.
+[k]
+
+[messageOff]
+[charaFadeout G 0.5]
+[wt 1.2]
+＠
+[lr]Je parlerai maintenant d'un avenir, de la fin de l'île des Mystiques, qui est devenue connue sous le nom de Faerieland.
+[k]
+
+＠
+Laissez les innocents revenir. Ici se dresse le château inconnaissable de la reine.
+[k]
+
+＠
+Ça tombe. Ça tombe. Comme la pluie. Comme Ash.[sr]Il disparaît. Il disparaît. Comme la neige. Comme des mensonges.
+[k]
+
+＠
+Nos désirs languissent, différés. Même maintenant, nous dansons dans la paume de la main de la reine.
+[k]
+
+＠
+Nous avons besoin maintenant d'un peu plus de patience. Après deux mille ans, l'aube amènera l'enfant qui sera notre salut.
+[k]
+
+＠
+Elle sera l'enfant qui sauve le monde, qui lie les deux peuples ensemble.
+[k]
+
+＠
+Même si sa lumière commence comme une braise, même si personne ne le voit, elle deviendra une flamme pour dessiner des papillons.
+[k]
+
+＠
+Une ville de fer. Une mer de suie. Lorsque la calamité recule, son pèlerinage commence.
+[k]
+
+＠
+Élu par le personnel de la sélection, le Sauveur, gardé par des voyageurs de loin, atteindra le trône.
+[k]
+
+＠
+Le vrai roi arrivera sur le trône. Acceptez maintenant cette couronne ensanglantée.
+[k]
+
+
+＠
+Anneau. Anneau. Comme le tonnerre qui fait rage. Comme des flammes pleurant. Associons-nous aux six cloches qui sonnent. Blaze le chemin du vrai roi.
+[k]
+
+＠
+Ere the red calamity catches us. Ere la calamité noire nous dévore.
+[k]
+
+＠
+Indolents et abandonnés bien que nous soyons, nous sommes les scions des Fae libres.
+[k]
+
+＠
+Nous n'avons jamais souhaité rien. Mais nous désirons toujours un avenir brillant.
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.7 1]
+[wt 0.9]
+
+＠Mage
+Alors, qu'avez-vous pensé? Il faut son temps doux pour faire valoir son point, mais vous l'obtenez, oui?
+[k]
+
+[charaFace G 1]
+
+＠Mage
+C'est comme ça avec les prophéties. Ils n'ont pas de sens lorsque vous les entendez pour la première fois, mais une fois que les événements se déroulent, vous voyez exactement ce qu'ils voulaient dire.
+[k]
+
+＠Mage
+En ce sens, ils sont beaucoup comme une malédiction qui s'est fixé à votre dos avant de savoir qu'il était là.
+[k]
+
+[messageOff]
+[se ad950]
+[seVolume ad950 0 0.5]
+
+
+[distortionstart 1.0 0.5 0.5 0.1 0.2 20.0]
+[wipeout magic 1.5 1.0]
+[wt 1.8]
+
+[distortionstop 1.5]
+[wipein magic 1.5 1.0]
+[wait wipe]
+
+[wt 1.5]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠Mage
+Welp, on dirait que la dame effrayante m'a trouvé.[sr]C'est tout ce que je peux faire pour l'instant.
+[k]
+
+[charaFace G 0]
+
+＠Mage
+La prochaine fois que je verrai, vous serez probablement après que tout le reste sera dit et fait.
+[k]
+
+＠Mage
+C'est dommage que je ne pourrai pas vous aider à combattre, mais je suis extrêmement soulagé que je n'aurai pas à craindre pour ma vie.
+[k]
+
+＠Mage
+Tour à ce moment, je vous attendrai dans le pays confiné. Jusqu'à la prochaine fois.
+[k]
+
+[messageOff]
+[wt 1.0]
+[fadeout black 4.0]
+[bgmStop BGM_EVENT_20 4.0]
+[wait fade]
+
+[charaFadeout G 0.1]
+[wt 1.0]
+
+[scene 10000]
+[blur motion 5.0 4 10000 0.5 0.7 0.05 100]
+
+[fadein black 1.0]
+[wait fade]
+
+[wipeout openEye 1.0 0.1]
+[wait wipe]
+
+[scene 105800]
+[wt 0.5]
+[wipein openEye 1.0 1.0]
+[wt 0.5]
+
+[wipeout openEye 1.0 0.5]
+[wait wipe]
+[blurOff]
+[wt 0.2]
+
+[wipein openEye 1.0 1.0]
+[wait wipe]
+
+[wt 1.0]
+
+
+？1：Was that...a dream?
+
+？！
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+[wt 0.4]
+
+＠Fou
+...
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+[se ad9]
+[flashin loop 0.6 0.8 FF000080 00000000]
+[wt 2.8]
+[flashOff]
+[seVolume ad9 0.5 0.4]
+
+[charaPut H 1]
+[charaEffect H bit_talk_10_LowLevel]
+[wt 0.1]
+[se ad13]
+[charaTalk I]
+[charaFace I 12]
+[charaFadein I 0.1 1]
+[wt 0.3]
+
+＠Sion
+Euh, tests, tests.[sr]Bonjour tout le monde. C'est sion.
+[k]
+
+＠Sion
+Le temps est maintenant à 7h00. Je suis vraiment désolé de vous déranger tous pendant vos précieuses heures de calme ...
+[k]
+
+＠Sion
+... Mais j'ai un message urgent à relayer à tout le personnel de Novum Chaldea.
+[k]
+
+＠Sion
+Il y a eu un changement dans la sixième ceinture perdue. La situation d'urgence que nous avons prévue est en cours.
+[k]
+
+＠Sion
+Veuillez rester calme et venir dans la salle de commandement dès que vous le pouvez.
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.1]
+[charaPut H 1200,1200]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[wt 0.5]
+
+？1：Oh crap! Come on, Fou!
+
+？！
+
+＠Fou
+...
+[k]
+
+[messageOff]
+[cueSe Battle bac469]
+[charaMove B -60,0 0.4]
+[charaFadeout B 0.4]
+[wt 0.3]
+[se ad313]
+[wt 0.5]
+[seStop ad313 0.5]
+
+？1：...Fou?
+？2：He just turned and left...
+
+？！
+
+[messageOff]
+[seStop ad9 1.0]
+[fadeout black 1.0]
+[wait fade]
+
+[scene 10000]
+[wt 0.5]
+
+[fadein black 0.1]
+[wait fade]
+[wipeout leftToRight 0.1 1]
+[wait wipe]
+
+[scene 104100]
+[charaSet I 1098158200 1 Sion]
+[wt 0.1]
+
+[wipein rightToLeft 0.7 1]
+[flashin loop 0.6 0.8 FF000080 00000000]
+[se ad9]
+[seVolume ad9 0 0]
+[seVolume ad9 0.7 1.0]
+[wait wipe]
+
+[wt 2.1]
+[flashOff]
+[seStop ad9]
+[wt 0.2]
+
+[se ad59]
+[seVolume ad59 0 0]
+[seVolume ad59 1.0 0.8]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.4 1]
+[seStop ad59 0.4]
+[wt 0.4]
+
+[bgm BGM_EVENT_77 0.1]
+
+＠Mash
+Mash Kyrielight, rapport pour le devoir!
+[k]
+
+[charaFace A 6]
+
+＠Mash
+Que se passe-t-il ici, maître?
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.4 1]
+[wt 0.4]
+
+＠Goredolf
+Hmph. Ne vous donnez pas la peine de demander[%1], Kyrielight.
+[k]
+
+＠Goredolf
+[&He:She]Et je suis tous les deux arrivés ici nous-mêmes, donc nous savons[sr]Aussi peu que toi. Je ne vois même pas mon conseiller technique ou le capitaine n'importe où!
+[k]
+
+＠Goredolf
+Les seuls autres ici sont que[sr]Alchimiste imperturbable et[line 2]
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.4 1]
+[wt 0.4]
+
+＠Holmes
+Bonjour, mes collègues distingués.
+[k]
+
+＠Holmes
+Je vois par votre teint sain que vous avez tous dormi merveilleusement hier soir. Merveilleux.
+[k]
+
+[charaFace C 7]
+
+＠Holmes
+Je dirais que cela remplit la première condition.[sr]Ne le feriez pas, Mme Sion?
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 12]
+[charaFadein I 0.1 1]
+
+＠Sion
+Oui, je pense que oui. Il est très chanceux que vous soyez tous en si bonne santé en ce moment.
+[k]
+
+＠Sion
+Voyons. Nous avons[%1]et écraser le demi-serviteur, l'équipe de campagne OP.
+[k]
+
+＠Sion
+Meunière, le pilote. Tomlin et Kawata, les opérateurs.
+[k]
+
+＠Sion
+Octavia, assistant de Da Vinci.[sr]Chin, le mécanicien du véhicule.
+[k]
+
+＠Sion
+Cayenne, The Munitions and Design Engineer. Elron, le gardien de disques. Marcus, l'ingénieur Spiritron.
+[k]
+
+＠Sion
+Et Gorefol, qui appréciait juste une assiette de crêpes avec une bruine assez généreuse de miel.
+[k]
+
+[charaFace I 10]
+
+＠Sion
+Je ne vois pas que l'un de vous n'est pas autant que de battre un œil sur cette situation désastreuse. Vraiment, vous êtes tous des vétérans chevronnés!
+[k]
+
+[charaFace I 9]
+
+＠Sion
+Cela rendra tellement plus facile à vous dire ce qui se passe!
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaSet I 1098158210 1 Sion]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+
+＠Goredolf
+Oh, pour ... Je n'aime vraiment pas où ça va, mais allez, écoutons-le! Que se passe-t-il déjà !?
+[k]
+
+＠Goredolf
+Cela a-t-il quelque chose à voir avec cette lumière rouge brûlante clignotant plus d'unie que je ne l'ai jamais vu flash avant !?
+[k]
+
+[charaFace E 1]
+
+＠Goredolf
+Y a-t-il un feu dans la cuisine maintenant ou quelque chose comme ça?
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_77 1.0]
+[charaTalk I]
+[charaFace I 7]
+[charaFadein I 0.1 1]
+
+＠Sion
+Oh non, rien de tel. Ce n'est qu'une petite crise planétaire qui nous éradiquera tous dans environ vingt-quatre heures si nous ne l'arrêterons pas.
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaSet I 1098158200 1 Sion]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠Goredolf
+Éradication ... eh bien, c'est une affaire beaucoup plus importante que je ne m'attendais[line 2]
+[k]
+
+[charaFace E 13]
+
+＠Goredolf
+Attendez. Qu'avez-vous dit, vous porteur égyptien du genou !?
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 14]
+[charaFadein I 0.1 1]
+＠Sion
+Hmm. Il me semble très impoli de bouillir les gens à leur nationalité, leur apparence et / ou leur choix de vêtements.
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠Mash
+Je suis d'accord avec cela, mais s'il vous plaît, ne faisons pas de côté maintenant.
+[k]
+
+＠Mash
+Le réalisateur Gorefol, maître et tous les autres membres du personnel sont toujours aux prises avec cette nouvelle.
+[k]
+
+＠Mash
+Qu'entendez-vous exactement par «crise planétaire»?
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_81 0.1]
+
+[charaTalk I]
+[charaFace I 5]
+[charaFadein I 0.1 1]
+
+＠Sion
+Je suis désolé, vous avez raison. Nous n'avons pas beaucoup de temps à perdre, donc je serai aussi tout à fait possible.
+[k]
+
+＠Sion
+Comme vous le savez, cela fait environ trois semaines que l'opération choquante pour éliminer les limbes.
+[k]
+
+＠Sion
+Pendant ce temps, Novum Chaldea a réglé la frontière de la tempête et concevant les plans d'attaque pour les sixième et septième perdus restants.
+[k]
+
+＠Sion
+Cela dit, comme je vous l'ai tous dit auparavant, je n'ai pas vu le besoin d'infiltrer la Grande-Bretagne, le site de la sixième celle de perdue ...
+[k]
+
+＠Sion
+... J'ai donc concentré mes efforts sur la septième ceinture perdue, où le dieu étranger se cache.
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠Goredolf
+Y-oui, je me souviens. Vous avez dit que nous pourrions laisser la sixième ceinture perdue à ses propres appareils parce que ...
+[k]
+
+＠Goredolf
+Continue,[%1]. Dites-lui.
+[k]
+
+？1：Because Britain doesn't have a Tree of Emptiness anymore.
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠Holmes
+En effet. L'arbre du vide qui a aidé à établir la ceinture perdue britannique a été utilisé pour brûler l'arbre du vide à l'Olympe.
+[k]
+
+＠Holmes
+Comme preuve supplémentaire, nous n'avons observé aucune lecture d'énergie magique associée aux arbres de vide provenant de la Grande-Bretagne depuis lors.
+[k]
+
+＠Holmes
+En tant que tel, la ceinture de perdue britannique devrait disparaître d'elle-même, un peu comme celle chinoise l'a fait ... du moins nous avons pensé.
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+？2：Because Britain's seriously dangerous.
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+
+＠Meunière
+Sérieusement,[%1]? Tu es toujours à moitié endormi ou quelque chose comme ça? Chaque Lostbelt est vraiment dangereuse.
+[k]
+
+＠Meunière
+La seule raison pour laquelle nous quittons la Grande-Bretagne est parce que notre travail y est déjà fait.
+[k]
+
+[charaFace F 0]
+
+＠Meunière
+Rappelez-vous ce que Beryl nous a dit?
+[k]
+
+＠Meunière
+Il a dit qu'ils avaient brûlé l'arbre de vide britannique pour détruire l'arbre de vide d'Olympus.
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠Mash
+Droite. La ceinture perdue britannique peut encore être entourée d'un mur de lumière, mais ce n'est plus une menace pour l'humanité.
+[k]
+
+＠Mash
+Du moins, c'était notre compréhension ...[sr]N'est-ce pas le cas?
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 4]
+[charaFadein I 0.1 1]
+
+＠Sion
+Non, c'est. Nous le gardions toujours sous observation, mais nous ne l'avons pas considéré comme une menace.
+[k]
+
+＠Sion
+Pas avant ce moment même, de toute façon.
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[se ad793]
+[wt 0.7]
+
+
+[se ad545]
+[wt 0.5]
+[scene 67901 0.5 FULLSCREEN_IMAGE_DEVICE_WIDTH]
+[wt 1.0]
+
+
+＠Sion
+Il s'agit de la grille d'observation planétaire de la lune de la lune, et ce sont les prédictions de Sheba.
+[k]
+
+＠Sion
+Selon cela, la British Lostbelt disparaîtra dans environ vingt-quatre heures, et quand il le fera, il engloutira également le reste de la planète comme un énorme tsunami.
+[k]
+
+＠Sion
+La Terre s'effondrera alors sous le poids de sa propre gravité, anéantissant complètement la planète.
+[k]
+
+＠Sion
+Nous ne parlons pas de l'un des pseudo-trous noirs du dieu étranger. Ce serait bel et bien la fin de la Terre.
+[k]
+
+＠Sion
+Cela écrasera la mauvaise fin actuelle de l'humanité[line 2]le phénomène de terre blanchi[line 2]avec une impasse complètement.
+[k]
+
+[messageOff]
+[scene 104100 0.5]
+[wt 1.0]
+[charaTalk depthOff]
+[charaDepth A 1]
+[charaDepth E 3]
+[charaDepth F 2]
+
+[charaTalk off]
+[charaFace E 9]
+[charaFace F 8]
+[charaFace A 6]
+[charaFadein E 0.1 1]
+[charaFadeinFSSideL F 0.1 0]
+[charaFadeinFSSideR A 0.1 2]
+[wt 1.5]
+
+
+
+？1：But... But why is this happening!?
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk on]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠Holmes
+Cela, nous ne savons pas. Mais, maintenant que nous savons ce qui se passera s'ils ne sont pas contrôlés, nous pouvons mal nous permettre de simplement nous asseoir et de faire des coups de pouce.
+[k]
+
+＠Holmes
+Da Vinci et le capitaine Nemo sont à la frontière de la tempête pendant que nous parlons, se préparant à se lancer.
+[k]
+
+＠Holmes
+Jusqu'à présent, nous utilisons la bordure d'ombre pour infiltrer les perdants via un espace vide ...
+[k]
+
+＠Holmes
+... Mais ce développement soudain nous a laissés sans le temps que nous devons nous préparer.
+[k]
+
+＠Holmes
+Heureusement, nous avons maintenant la frontière de tempête, qui est capable de violer directement les murs entourant la ceinture perdue.
+[k]
+
+＠Holmes
+En tant que cuirassé, la bordure de la tempête[sr]est essentiellement notre base de première ligne.
+[k]
+
+＠Holmes
+Bien que nous effectuerons toujours des enquêtes sur place à la frontière de l'ombre, avoir une base où nous pouvons toujours réapprovisionner sera un formidable atout.
+[k]
+
+[charaFace C 6]
+＠Holmes
+En outre, Trismegistus II a classé ce phénomène comme un effondrement ...
+[k]
+
+＠Holmes
+... mais on pourrait aussi appeler cela un piège, ou peut-être, un piège.
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠Mash
+Un écueil ... alors, pensez-vous que la Grande-Bretagne va s'arrêter sur elle-même? Ou couler sous l'eau?
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠Holmes
+J'ai peur de ne pouvoir offrir aucune réponse définitive jusqu'à ce que nous y arrivions.
+[k]
+
+＠Holmes
+Quoi qu'il en soit, je soupçonne que même le dieu étranger elle-même prévoyait cette tournure des événements.
+[k]
+
+＠Holmes
+C'est bien bien que la Grande-Bretagne disparaîtra. En effet, il faut s'attendre à ce que son arbre de vide soit effectivement mort.
+[k]
+
+＠Holmes
+Mais si cette disparition va engloutir toute la planète, alors c'est une question que nous devons enquêter et finalement résoudre.
+[k]
+
+＠Holmes
+Après tout, il n'y aurait aucun moyen possible de restaurer la Terre à son état pré-blanchi s'il ne reste plus de terre à restaurer.
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+
+＠Meunière
+D'accord, je suis avec toi là-bas, mais que diable pouvons-nous faire en seulement vingt-quatre heures !?
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 7]
+[charaFadein I 0.1 1]
+
+＠Sion
+Beaucoup, en fait. Vous voyez, cette période de vingt-quatre heures est dans notre délai.
+[k]
+
+＠Sion
+Mais selon Sheba, le temps se déplace très différemment dans la ceinture perdue.
+[k]
+
+
+＠Sion
+Une fois à l'intérieur de la ceinture perdue britannique, notre contrainte de temps cessera d'être une préoccupation.
+[k]
+
+＠Sion
+Donc, tant que vous pouvez résoudre ce phénomène pendant que vous y êtes, nous devrions être réglés!
+[k]
+
+[charaFace I 12]
+
+＠Sion
+Cela dit, le temps n'est certainement pas de notre côté.
+[k]
+
+＠Sion
+C'est pourquoi nous allons que tout le personnel de Chaldea à bord de la frontière de la tempête ...
+[k]
+
+＠Sion
+... et dirigez-vous vers la Grande-Bretagne dès que nous terminons notre dernier contrôle de sécurité.
+[k]
+
+＠Sion
+Ensuite, une fois que vous arrivez à son mur de lumière, vous utiliserez l'exercice de perçage de la dimension de la bordure de tempête pour le vioder ...
+[k]
+
+＠Sion
+... et faites votre chemin en Grande-Bretagne, la sixième ceinture perdue.
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_81 1.0]
+[wt 1.2]
+[charaFace I 0]
+
+[bgm BGM_EVENT_77 0.1]
+＠Sion
+C'est tout ce que j'ai à dire. Et comme chance, la frontière de l'ombre vient d'arriver au quai.
+[k]
+
+＠Sion
+Je sais que cette mission est survenue sur vous très soudainement, mais Da Vinci vous renseignera sur les détails à bord de la frontière de la tempête.
+[k]
+
+＠Sion
+Soyez prudent là-bas, tout le monde. J'ai hâte d'entendre quel genre de hijinks amusants que vous obtenez cette fois.
+[k]
+
+？1：...Huh? Aren't you coming, too?
+？2：Huh? You mean you're not coming, Sion?
+
+？！
+
+[messageOff]
+[charaFace I 8]
+[wt 1.0]
+[charaFace I 3]
+
+＠Sion
+Ahaha, désolé, tu as raison.[sr]J'ai dit tout le personnel.
+[k]
+
+[charaFace I 12]
+
+＠Sion
+Ma faute. Je n'ai pas expliqué cela comme prévu.
+[k]
+
+＠Sion
+Je pensais qu'il serait beaucoup trop présomptueux de compter un nouveau venu comme moi en tant que membre du personnel de Chaldea.
+[k]
+
+[charaFace I 1]
+
+＠Sion
+S'il vous plaît, ne vous inquiétez pas pour moi. Je vais juste rester ici et continuer à surveiller la septièmeBelt Lost.
+[k]
+
+＠Sion
+Faites de votre mieux là-bas,[%1].[sr]Je promets que je ferai de même ici.
+[k]
+
+[charaFace I 7]
+
+＠Sion
+Cela dit, si vous devriez tous souffler celui-ci, moi et cette base cessent d'exister dans environ vingt-quatre heures ...
+[k]
+
+＠Sion
+Je compte donc plus que jamais sur vous!
+[k]
+
+＠Sion
+Mais je ne suis pas du tout inquiet. Je sais que tu réussiras!
+[k]
+
+？1：Thanks, Sion! You hang in there, too!
+？2：...Yeah, we will. Count on it!
+
+？！
+
+[messageOff]
+[charaFace I 10]
+[wt 1.2]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_77 2.0]
+[wait fade]
+
+
+[charaFadeout I 0.1]
+[wt 1.4]
+
+[se ad729]
+[seVolume ad729 0 0]
+[seVolume ad729 1.0 0.6]
+
+[wt 1.0]
+[scene 126500]
+
+[shake 0.05 0 2 5.0]
+[fadein black 1.0]
+
+[wait fade]
+[wt 4.0]
+
+[scene 89500 1.0]
+[seStop ad729 2.0]
+[wt 2.5]
+
+[charaTalk off]
+[charaFace L 1]
+[charaFadein L 0.4 240,0]
+[wt 1.2]
+
+[se ade172]
+[charaFace K 0]
+[charaFadein K 0.4 -350,0]
+[charaMove K -250,0 0.4]
+[wt 0.6]
+[seStop ade172]
+[charaFace K 3]
+[charaMoveReturn K -250,5 0.3]
+[wt 0.3]
+[charaMoveReturn K -250,5 0.3]
+[wt 1.0]
+[se ad13]
+
+[charaTalk on]
+＠Nemo
+Attention à tous les membres de l'équipage.[charaFace L 0][charaFace K 1][charaMoveReturn K -250,5 0.3][charaMoveReturn L 240,5 0.3][sr]Je le répète, l'attention de tous les membres de l'équipage.
+[k]
+
+[bgm BGM_EVENT_124 0.1]
+
+＠Nemo
+Nous sommes arrivés dans les eaux près de la ceinture de perdue britannique deux heures après avoir quitté la mer errante, comme nous le nous attendions.
+[k]
+
+＠Nemo
+Nous sommes actuellement à deux cent kilomètres au nord de l'île de Britain.
+[k]
+
+＠Nemo
+Le mur de la lumière semble être une faille dimensionnelle, tout comme la fin du monde de la sixième singularité.
+[k]
+
+＠Nemo
+Grâce à Da Vinci et à l'analyse du professeur, nous avons appris que le Rift est le plus mince du côté sud ...
+[k]
+
+＠Nemo
+C'est donc là que nous nous dirigerons, et nous commencerons l'ennui dimensionnel dès notre arrivée.
+[k]
+
+＠Nemo
+Nous nous attendons à commencer l'opération en quarante-cinq minutes. Toutes les mains restent à vos messages jusqu'à nouvel ordre.
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_124 1.0 0.4]
+[wait fade]
+
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[scene 86200]
+[wt 1.0]
+
+
+[fadein black 1.0]
+[bgm BGM_EVENT_124 1.0 1.0]
+[wait fade]
+
+[charaTalk J]
+[charaFace J 6]
+[charaFadein J 0.1 1]
+
+＠Nemo
+... Là, vous l'avez. Nous allons commencer l'opération dès que possible, sans aucune pause.
+[k]
+
+＠Nemo
+La frontière de la tempête est un grand navire, après tout, donc il ne peut pas simplement se glisser dans un espace vide comme la bordure de l'ombre.
+[k]
+
+＠Nemo
+Mais ce qu'il peut faire, c'est utiliser sa force propulsive massive et ses barrières d'énergie magiques ...
+[k]
+
+[charaFace J 0]
+
+＠Nemo
+... résister à la friction dimensionnelle qui sépare différents mondes. Fondamentalement, c'est une perceuse géante.
+[k]
+
+＠Nemo
+Ce que nous allons faire, c'est tirer la bordure de la tempête à travers ce mur de lumière comme une balle.
+[k]
+
+[charaFace J 5]
+
+＠Nemo
+L'impact d'entrée sera tout aussi fort que pour une voile zéro, alors assurez-vous que vous êtes tous dans un état d'esprit calme.
+[k]
+
+＠Nemo
+Si vous êtes confus, désemparé ou terrifié, votre âme pourrait ne pas être en mesure de suivre votre corps.
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠Goredolf
+Y-oui, je suis bien conscient. Vous voulez dire cette sensation étrange où il ressemble que votre poitrine et votre tête sont étirées comme Taffy, non?
+[k]
+
+＠Goredolf
+Pas besoin de s'inquiéter pour nous, capitaine.[sr]Ce n'est pas notre premier rodéo.
+[k]
+
+＠Goredolf
+Plus important encore, euh ...
+[k]
+
+[charaFace E 6]
+
+＠Goredolf
+Nous avons un plan d'action ferme en place, oui?
+[k]
+
+＠Goredolf
+Parce que je ne veux même pas penser à entrer dans une ceinture perdue sans stratégie ni objectif!
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaPut H 1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠[51ffff]Da Vinci
+[51ffff]Bien sûr, nous le faisons. Ne t'inquiète pas, Gordy.[-][sr][51ffff]Nous savons exactement ce que nous devons faire.[-]
+[k]
+
+[charaFace D 26]
+
+＠[51ffff]Da Vinci
+[51ffff]Après tout, nous avions toujours prévu d'aller[-][sr][51ffff]Après la British Lostbelt à un moment donné![-]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaPut H 1200,1200]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠Mash
+Vraiment? Tu étais?
+[k]
+
+＠Mash
+Mais, je pensais que la bizarrerie britannique n'était plus une menace. Au moins jusqu'à aujourd'hui.
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠Holmes
+Vous êtes. Mais néanmoins, nous étions en effet prévus de l'explorer bien avant maintenant.
+[k]
+
+＠Holmes
+Alors que nous n'avons que quelques morceaux d'informations avec lesquels travailler pour le moment, nous savons que Beryl Gut reste dans la British Lostbelt ...
+[k]
+
+＠Holmes
+... et que son roi a pu lancer une attaque contre l'arbre de vide d'Olympus.
+[k]
+
+[charaFace C 6]
+
+＠Holmes
+De plus, ce roi a même pu brûler l'arbre même du vide requis pour maintenir leur ceinture perdue.
+[k]
+
+[charaFace C 0]
+
+＠Holmes
+Bien qu'il ne soit toujours pas clair si Beryl les a trompés à le faire, ou s'ils ont agi avec un consentement éclairé ...
+[k]
+
+[charaFace C 5]
+
+＠Holmes
+... Ce qui compte, c'est qu'ils possèdent suffisamment de pouvoir pour brûler un arbre de vide à lui seul. Et puis il y a[line 2]
+[k]
+
+？1：Rhongomyniad...right?
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaPut H 1]
+[charaTalk D]
+[charaFace D 25]
+[charaFadein D 0.1 1]
+
+＠[51ffff]Da Vinci[-]
+[51ffff]Ouais. Un sort extrêmement puissant semblable à la divine[-][sr][51ffff]punition capable d'atteindre Olympus tout le[-][sr][51ffff]chemin de la Grande-Bretagne.[-]
+[k]
+
+＠[51ffff]Da Vinci[-]
+[51ffff]Un mystique qui a dépassé même l'idéal de Kirschtaria[-][sr][51ffff]Magecraft. C'était bien Rhongomyniad.[-]
+[k]
+
+＠[51ffff]Da Vinci[-]
+[51ffff]C'est un sort conçu pas par les mains humaines,[-][sr][51ffff]mais par la mer intérieure de la planète elle-même.[-]
+[k]
+
+＠[51ffff]Da Vinci[-]
+[51ffff]Ce serait une arme puissante contre les étrangers[-][sr][51ffff]Dieu, ce qui signifie que c'est quelque chose dont nous avons désespérément besoin.[-]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaPut H 1200,1200]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠Mash
+La mer intérieure de la planète?[sr]Qu'est-ce que c'est?
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠Meunière
+Oh, ça? C'est essentiellement un paradis de légende.
+[k]
+
+＠Meunière
+Chaque mythologie a une sorte de Terre sainte éternelle promise, non?
+[k]
+
+＠Meunière
+Utopie, le jardin d'Eden, la terre du jeune tír na nóg, et ainsi de suite? Eh bien, la Grande-Bretagne s'appelle Avalon.
+[k]
+
+＠Meunière
+C'est censé être un paradis d'un autre monde qui ne peut pas être atteint par des moyens ordinaires.
+[k]
+
+＠Meunière
+On dit également qu'il se trouve à l'intérieur de la planète, et que c'est là que les âmes des étoiles s'endorment.
+[k]
+
+＠Meunière
+Presque chaque Mage de la tour de l'horloge en a entendu parler.
+[k]
+
+＠Meunière
+Je sais que je l'ai appelé une légende, mais ce n'est pas ainsi que les gens qui peuvent réellement le voir y pensent.
+[k]
+
+＠Meunière
+Il y a des gens qui pourraient vraiment être en mesure de se rendre à la mer intérieure de la planète. Enfer, la tour de l'horloge a même un département pour l'explorer.
+[k]
+
+[charaFace F 3]
+
+＠Meunière
+... Cela dit, nous parlons d'un endroit complètement en dehors de la compréhension humaine.
+[k]
+
+＠Meunière
+Une fois que vous êtes mélangé avec quelque chose comme ça, vous êtes pratiquement déjà perdu dans un monde en dehors du nôtre.
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠Goredolf
+Hahaha, qu'est-ce que tu dis, meunipazza? Parlez-vous de l'atelier underground?
+[k]
+
+＠Goredolf
+Ils sont juste un archéologique ordinaire[sr]équipe avec un nom sophistiqué.
+[k]
+
+＠Goredolf
+Vraiment, comment quelqu'un pourrait-il les prendre au sérieux après avoir proclamé fièrement avoir trouvé le nombril de la Terre sous la tour de l'horloge?
+[k]
+
+＠Goredolf
+Je suis peut-être quelque chose d'un élitiste de magecraft, mais même moi, je serais trop gêné de dire quelque chose comme ça avec un visage droit.
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠Holmes
+Ahem. Si nous avons terminé notre digression au sujet de l'association du mage et de la politique intérieure de la tour de l'horloge, revenons au sujet, d'accord?
+[k]
+
+[charaFace C 0]
+
+＠Holmes
+Maintenant que nous connaissons le roi des listes britanniques qui contrôlent Rhongomyniad, nous devons enquêter et apprendre comment cela fonctionne.
+[k]
+
+＠Holmes
+En effet, le Rhongomyniad est la raison même pour laquelle nous avions déjà prévu d'explorer la bizarrerie britannique.
+[k]
+
+＠Holmes
+Bien que les circonstances nous aient forcé à agir plus tôt que nous l'avions espéré, nous allions toujours leur rendre visite finalement.
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠Mash
+Donc, la mission de Master cette fois n'est pas seulement d'enquêter sur la ceinture de perdue.
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠Holmes
+Bien que nous ayons bien sûr également besoin d'empêcher l'effondrement de Trismegistus II, nous a mis en garde, sécuriser le Rhongomyniad est notre priorité absolue.
+[k]
+
+＠Holmes
+En tant que tel, notre objectif ultime pour cette ceinture perdue est de négocier avec son roi.
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 9]
+[charaFadein E 0.1 1]
+
+＠Goredolf
+Vous voulez dire, vous voulez conclure un accord avec le roi de ce Lostbelt !? Quelqu'un capable de tirer essentiellement des missiles balistiques intercontinentaux à volonté !?
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaPut H 1]
+[charaTalk D]
+[charaFace D 14]
+[charaFadein D 0.1 1]
+
+＠[51ffff]Da Vinci[-]
+[51ffff]Ouais. Honnêtement, je pense que c'est assez téméraire, même pour[-][sr][51ffff]nous. J'adorerais mettre la main sur Rhongomyniad aussi ...[-]
+[k]
+
+[charaFace D 32]
+
+＠[51ffff]Da Vinci[-]
+[51ffff]... mais entre la bordure de la tempête, l'héroïque[-][sr][51ffff]Système spirituel, et le baril noir ...[-]
+[k]
+
+＠[51ffff]Da Vinci[-]
+[51ffff]... Je pense que nous devrions être en mesure de neutraliser[-][sr][51ffff]soi-disant président[line 2]Je veux dire, une menace au niveau de la planète[-][sr][51ffff]Comme le dieu étranger si les circonstances le demandent.[-]
+[k]
+
+＠[51ffff]Da Vinci[-]
+[51ffff]Sion était catégorique que nous avons besoin d'une construction divine,[-][sr][51ffff]Cependant, nous y sommes donc.[-]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaPut H 1200,1200]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+
+＠Holmes
+Eh bien, Mme Sion est une alchimiste de l'Atlas. Je ne doute pas qu'elle ait quelque chose d'unique en tête.
+[k]
+
+＠Holmes
+Et n'oublions pas, nous n'aurions pas le Nautilus ou la Fonction de tempête si ce n'était pas pour elle.
+[k]
+
+＠Holmes
+Donc, pour ma part, je suis parfaitement disposé à accompagner son plan.
+[k]
+
+＠Holmes
+Surtout si cela nous amène à acquérir Rhongomyniad, ou quelque chose d'équivalent.
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaPut H 1]
+[charaTalk D]
+[charaFace D 32]
+[charaFadein D 0.1 1]
+
+＠[51ffff]Da Vinci[-]
+[51ffff]Oh, pour ... ne pensez-vous pas que vous êtes juste[-][sr][51ffff]Un peu trop optimiste ici, Holmes?[-]
+[k]
+
+
+＠[51ffff]Da Vinci[-]
+[51ffff]Cela pourrait être le plus grand fardeau que nous ayons demandé[-][sr][51ffff][%1][-][51ffff]à supporter jusqu'à présent, tu sais?[-]
+[k]
+
+？1：(There's definitely a lot I have to do...)
+？2：(This mission does seem a little different than the others...)
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_124 1.0]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaPut H 1200,1200]
+
+[wt 1.2]
+
+[bgm BGM_EVENT_81 0.1]
+[charaTalk J]
+[charaFace J 5]
+[charaFadein J 0.1 1]
+
+＠Nemo
+Vous devrez continuer cette conversation plus tard.[sr]Nous avons presque atteint le point de forage.
+[k]
+
+＠Nemo
+Toutes les mains, retournez à vos messages.[sr]L'accumulation pour l'impact de la traversée de l'espace-temps.
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠Mash
+Oh, R-droite! Désolé, capitaine!
+[k]
+
+[messageOff]
+[se ad59]
+[charaMove A -100,0 0.4]
+[charaFadeout A 0.4]
+[wt 0.4]
+[seStop ad59 0.5]
+[wt 1.0]
+
+[se ade426]
+[charaTalk off]
+[charaFace F 0]
+[charaFadein F 0.4 0,0]
+[charaMove F 200,0 0.8]
+[wt 0.4]
+[charaFadeout F 0.4]
+[wt 0.4]
+[seStop ade426 0.5]
+[wt 0.5]
+
+[se ade426]
+[charaFace E 7]
+[charaFadein E 0.4 0,0]
+[charaMove E -200,0 0.8]
+[wt 0.4]
+[charaFadeout E 0.4]
+[wt 0.4]
+[seStop ade426 0.5]
+[wt 1.0]
+
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠Meunière
+Aw Crap, le mur est juste devant nous![sr]Désolé de ne pas avoir porté plus d'attention, capitaine!
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+
+＠Goredolf
+A-tout, je comprends! Je n'aime toujours pas ça[sr]Mais au moins, je comprends cette mission maintenant!
+[k]
+
+＠Goredolf
+Souviens-toi,[%1], ce ne sera pas comme les autres perdants que nous avons rencontrés jusqu'à présent!
+[k]
+
+＠Goredolf
+La négociation nécessite une approche prudente et réfléchie, alors essayez de garder votre risque imprudent à ne pas plus de trente pour cent de vos pitreries habituelles!
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠Holmes
+Bon chagrin. Il semble que Goreolf m'a battu au punch.
+[k]
+
+[charaFace C 0]
+
+＠Holmes
+Aussi important que puisse être cette mission, elle devrait être dans notre capacité à acquérir cette arme.
+[k]
+
+＠Holmes
+Heureusement, nous avons à la fois des connaissances et du temps de notre côté.
+[k]
+
+＠Holmes
+Quel que soit le type de personne avec qui nous pouvons faire face, tant que nous faisons des choses à la fois, nous sommes sûrs d'arriver à la vérité éventuellement.
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_81 1.0]
+[charaFadeout C 0.1]
+[wt 0.1]
+[se ad59]
+[cameraMove 1.0 -20,0 1.1]
+[wt 1.0]
+[seStop ad59]
+[wt 0.3]
+[se ad775]
+[cameraMove 0.4 -20,10 1.1]
+[wt 0.6]
+
+
+？1：[%1], strapped in and ready!
+
+？！
+
+[se ad550]
+[wt 1.5]
+[wipeout rectangleStripLeftToRight 0.7 1]
+[wait wipe]
+
+[cameraHome 0.1]
+[wt 0.5]
+
+[wipein rectangleStripRightToLeft 0.7 1]
+[wait wipe]
+
+
+[bgm BGM_EVENT_82 0.1]
+
+[charaTalk J]
+[charaFace J 6]
+[charaFadein J 0.1 1]
+
+＠Nemo
+Bien. Professeur, commencez le contrôle de sécurité final.[sr]Storm Border, lancez zéro revêtement.
+[k]
+
+＠Nemo
+Les moteurs Triton un, deux et trois sont tous verts. Les corrections d'espace et de différence de temps entre la bordure de la tempête et la cible de forage ont été calculées.
+[k]
+
+＠Nemo
+Da Vinci protégera l'armure du navire de la salle informatique tandis que la série NEMO se concentre sur le maintien de notre itinéraire.
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠Meunière
+La salle informatique nous a juste donné le capitaine tout clair! Nous envisageons quatre-vingt-dix-neuf points de succès de neuf pour cent!
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 2]
+[charaFadein J 0.1 1]
+
+＠Nemo
+Border de la tempête de cuirasse de la dimension, déménagez! Préparez-vous à entrer dans la sixièmebulaire Lost!
+[k]
+
+[messageOff]
+[wt 1.0]
+[fadeout white 1.5]
+[bgmStop BGM_EVENT_82 1.5]
+[wait fade]
+
+[charaFadeout J 0.1]
+[scene 10000]
+[wt 1.0]
+
+[fadein white 2.0]
+[wait fade]
+
+
+
+[skip false]
+[wt 1.0]
+
+[input selectBranch]
+
+[messageOff]
+[skip false]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+
+[soundStopAllFade 0.4]
+[charaPut H 2000,2000]
+
+[scene 10000]
+[wt 0.4]
+[soundStopAll]
+[maskin black 1]
+[wait mask]
+[label selectBranch]
+
+[wt 1.0]
+[fowardEffect bit_chapterstart308]
+[wait fowardEffect]
+
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

@@ -7,7 +7,7 @@ import { CompareRegion, ScriptSource } from "../../Component/Script";
 import { QuestDescriptionNoApi } from "../../Descriptor/QuestDescriptor";
 import ScriptDescriptor, { getScriptType } from "../../Descriptor/ScriptDescriptor";
 import { lang } from "../../Setting/Manager";
-
+import localScript from "../../../../../localdata/scripts/0300080010.json";
 interface QuestWarDescriptorProps {
     region: Region;
     quest: Quest.Quest;

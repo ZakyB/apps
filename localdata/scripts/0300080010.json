@@ -1,0 +1,14 @@
+{
+  "messages": [
+    {
+      "id": 1,
+      "name": "Mash",
+      "text": "C'est notre première étape, Senpai !"
+    },
+    {
+      "id": 2,
+      "name": "Ritsuka",
+      "text": "Allons-y !"
+    }
+  ]
+}

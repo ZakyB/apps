@@ -28,6 +28,7 @@ import ScriptMainData from "./Script/ScriptMainData";
 import ShowScriptLineContext from "./Script/ShowScriptLineContext";
 
 import classes from "./ScriptPage.module.css";
+import localScriptText from "../../../../localdata/scripts/0300080010_translated.txt?raw";
 
 const getScriptAssetURL = (region: Region, scriptId: string) => {
     let scriptPath = "";
@@ -90,6 +91,24 @@ const ScriptPage = ({ region, scriptId }: { region: Region; scriptId: string }) 
         const controller = new AbortController();
         Manager.setRegion(region);
 
+        if (scriptId === "0300080010") {
+            document.title = `[${region}] Script ${scriptId} - Atlas Academy DB`;
+            Api.script(scriptId)
+                .then((scriptData) => {
+                    if (controller.signal.aborted) return;
+                    setLoadStatus({
+                        loading: false,
+                        data: scriptData,
+                        script: localScriptText,
+                    });
+                })
+                .catch((e) => {
+                    if (controller.signal.aborted) return;
+                    setLoadStatus({ loading: false, error: e, script: "" });
+                });
+            return;
+        }
+
         const rawScriptURL = useRayshiftScript
             ? getRayshiftScriptAssetURL(scriptId)
             : getScriptAssetURL(region, scriptId);
@@ -104,6 +123,7 @@ const ScriptPage = ({ region, scriptId }: { region: Region; scriptId: string }) 
                 if (controller.signal.aborted) return;
                 setLoadStatus({ loading: false, error: e, script: "" });
             });
+
         return () => {
             controller.abort();
         };
